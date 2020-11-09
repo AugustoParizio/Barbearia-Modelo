@@ -5,15 +5,15 @@ body{
 #banner{
     width: 100%;
     height: 35pc;
+}
 
-    
+.principal{
+    background-color: blanchedalmond;
 }
 
 h1{
     text-align: center;
-    height: 150px;
-    padding: 20px;
-    margin: 40px;
+   ;
 }
 
 p{
@@ -30,4 +30,12 @@ em strong{
 
 .itens {
     font-style: italic;
+}
+
+.beneficios{
+background-color: blanchedalmond;
+}
+
+h2{
+    text-align: center;
 }
