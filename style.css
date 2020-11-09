@@ -1,10 +1,19 @@
-p{
-    text-align: center;
-    
-}
 body{
     background-color: silver;
 }
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;   
+}
+
+#missao{
+    font-size: 20px;
+}
+
 em strong{
     color: brown;
 }
