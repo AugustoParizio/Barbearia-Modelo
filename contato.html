@@ -26,29 +26,28 @@
     <main>
         <form> <!--tag para criar um formulário-->
             <label for="nomesobrenome">Nome e Sobrenome</label> <!--etiqueta para entrada dos dados sempre anda junto com input-->
-            <input type="text" id="nomesobrenome "> <!--oque o usuario vai digitar no campo pega qualquer tipo de informação-->
+            <input type="text" id="nomesobrenome " class="input-padrao"> <!--oque o usuario vai digitar no campo pega qualquer tipo de informação-->
         
             <label for="email">E-mail</label>
-            <input type="text" id="email">
+            <input type="text" id="email"class="input-padrao"><!--alinhar os intens usando esta classe input-padrao-->
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone"class="input-padrao"> 
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="Mensagem"></textarea><!--tag de conteudo para usuario escrever algum comentario ou informação necessária-->
+            <textarea cols="70" rows="10" id="Mensagem"class="input-padrao"></textarea><!--tag de conteudo para usuario escrever algum comentario ou informação necessária-->
             
         <div>
             <p>Como prefere o nosso contato?</p>
-            <label for="radio-email">E-mail</label>   
-            <input type="radio" name="contato" value="email" id="radio-email"> 
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>   
             
-            <label for="radio-telefone">Telefone</label>
-            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+            
 
-            <label for="radio-whatsapp">WhatsApp</label>
-            <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+            <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+           
 
-            <label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
 
          
             <input type="submit" value="Enviar formulário"><!--para enviar os dados, onde manda os dados para servidor,email, ou proxima pagina e etc-->
