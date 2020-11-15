@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--declarando-->
+    <meta charset="UTF-8"><!--dicionário ultilizado padrão-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Modelo</title>
+    <link rel="stylesheet" href="reset.css"> <!--o reset limpa tudo que é feito e orgnaziza estrutura do site-->
+    <link rel="stylesheet" href="style.css"><!--indica qual estilo estamos ultilizando-->
+</head>
+
+
+    <body>
+    <header>   
+      <div class="caixa">
+        <h1><img src="logo.png"></h1>
+        <nav>
+          <ul><!--tag para lista nao ordenada-->
+            <li><a href="index.html">home</a></li><!--link de referencia-->
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <form> <!--tag para criar um formulário-->
+            <label for="nomesobrenome">Nome e Sobrenome</label> <!--etiqueta para entrada dos dados sempre anda junto com input-->
+            <input type="text" id="nomesobrenome "> <!--oque o usuario vai digitar no campo pega qualquer tipo de informação-->
+        
+            <label for="email">E-mail</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+            <input type="submit" value="Enviar formulário"><!--para enviar os dados, onde manda os dados para servidor,email, ou proxima pagina e etc-->
+
+            
+        
+        </form>
+    </main>
+
+    <footer><!--tag rodapé do site-->
+        <img src="logo-branco.png" >
+        <p class="copyright">&copy; Copyright Barbearia Modelo Alura - 2020</p>
+      </footer>
+          
+      </body>
+      </html>
