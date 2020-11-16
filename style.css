@@ -188,11 +188,6 @@ td, th{
    margin: 0 20px 20px 0;
 }
 
-
-.imagembeneficios{
-    width: 60%;
-}
-
 .mapa{
     padding: 3em 0; /* padding é um espaçamento interno*/
 }
@@ -200,6 +195,35 @@ td, th{
 .mapa{
     margin: 0 0 2em; /*espaçamento externo*/
     text-align: center;
+}
+
+
+
+.beneficios{
+    padding: 3em 0;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top; /*para alinhar a lista verticalmente em relação ao topo */
+}
+
+.itens{
+    line-height: 1.5;  /* altura da linha*/
+}
+
+.itens:first-child {
+font-weight: bold;
+}
+
+.imagem-beneficios{
+    width: 50%;
 }
 
 .video{
