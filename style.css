@@ -5,7 +5,7 @@ header{
 
 .caixa{
     position: relative;
-    width: 940px;
+    width: 940px; /* width representa a largura da página */
     margin: 0 auto  ;
 }
 nav{
@@ -89,7 +89,7 @@ footer{
 }
 
 main{
-    width: 940px;
+    width: 940px; /* width representa a largura da página */
     margin: auto;
 }
 
@@ -107,7 +107,7 @@ form label, form legend {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 50%; /* width representa a largura da página */
 }
 
 .checkbox{
@@ -116,7 +116,7 @@ form label, form legend {
 }
 
 .enviar{
-    width: 40%;
+    width: 40%; /* width representa a largura da página */
     padding: 15px 0;
     background-color: orange;
     color: white;
@@ -146,6 +146,45 @@ thead{
 }
 
 td, th{
-    border: 1px solid black;
+    border: 1px solid black; 
     padding: 15px 8px;
+}
+
+/* CSS da página inicial */
+
+.banner{
+   width: 100%; /* width representa a largura da página */
+
+}
+
+.titulo-principal{
+
+    text-align: center;   /*texto alinhado ao centro */
+    font-size: 2em;  /*tamanho da fonte da classe*/
+    margin: 0 0 1em;
+    clear:  left ;   /* clear = limpa o float*/
+
+}
+
+.principal p{
+    margin:  0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold; /* font weight significa o estilo da fonte o peso dela , e bold é negrito*/
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left ; /*float serve para fazer o elemento flutuar e assim o texto ficar ao redor da imagem*/
+   margin: 0 20px 20px 0;
+}
+
+
+.imagembeneficios{
+    width: 60%;
 }

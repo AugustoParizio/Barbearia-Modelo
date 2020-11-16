@@ -3,37 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Modelo</title>
-    <link rel="stylesheet" href="style-home.css">
+    <title>Barbearia Modelo Alura</title>
+    
+    <link rel="stylesheet" href="reset.css"> <!--o reset limpa tudo que é feito e orgnaziza estrutura do site-->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <header>
-    <h1 class="titulo-principal">Barbearia Modelo</h1> 
+    <header><!--cabeçalho-->
+        <div class="caixa">
+            <h1><img src="logo.png"></h1>
+            <nav>
+              <ul><!--tag para lista nao ordenada-->
+                <li><a href="index.html">home</a></li><!--link de referencia-->
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">contato</a></li>
+              </ul>
+            </nav>
+          </div> 
     </header>
-    <img id="banner" src="banner.jpg">
-<div class="principal">
-    <h2 class="titulo-centralizado"> Sobre Barbearia Modelo</h2>
-    <p>Localizada no coração da cidade a <strong>barbearia Modelo</strong> traz para o mercado o que há de melhor
-     para o seu cabelo e barba. Fundada em 2020, a Barbearia Modelo já é destaque na cidade e conquista novos 
-     clientes a cada dia.
-     <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida
-     aos clientes"</strong>.</em></p>
-     <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
-     padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-    </p>
-</div>
+    <img class="banner" src="banner.jpg"><!--sempre usar classes em css-->
 
-<div class="beneficios">
-    <h3 class="titulo-centralizado">Beneficios</h3>
- <ul>
-    <li class="itens">Atendimento as clientes</li>
-    <li class="itens">Espaço diferenciado</li>
-    <li class="itens">Localização</li>
-    <li class="itens">Profissionais Qualificados </li>  
-</ul>
-<img src="beneficios.jpg" class="imagembeneficios">
-</div>
+<main><!--conteudo principal-->
+ <section class="principal">
+        <h2 class="titulo-principal"> Sobre Barbearia Modelo</h2>
+        <img class="utensilios" src="utensilios.png" alt="utensilios de um barbeiro">
+        <p>Localizada no coração da cidade a <strong>barbearia Modelo</strong> traz para o mercado o que há de melhor
+            para o seu cabelo e barba. Fundada em 2020, a Barbearia Modelo já é destaque na cidade e conquista novos 
+            clientes a cada dia.
+        <p id="missao"><em>Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida
+            aos clientes"</strong>.</em></p>
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
+            padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+            </p>
+ </section>
+
+ <section class="beneficios"><!--section-divisão seção que direciona ao mesmo objetivo bloco semanticocla-->
+    <h3 class="titulo-principal">Beneficios</h3>
+     <ul>
+        <li class="itens">Atendimento as clientes</li>
+        <li class="itens">Espaço diferenciado</li>
+        <li class="itens">Localização</li>
+         <li class="itens">Profissionais Qualificados</li>  
+    </ul>
+        <img src="beneficios.jpg" class="imagembeneficios">
+ </section>
+</main>
+
+<footer><!--tag rodapé do site-->
+    <img src="logo-branco.png" >
+    <p class="copyright">&copy; Copyright Barbearia Modelo Alura - 2020</p>
+</footer>   
     
 </body>
 </html>
