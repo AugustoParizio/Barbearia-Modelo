@@ -26,16 +26,18 @@
     <main>
         <form> <!--tag para criar um formulário-->
             <label for="nomesobrenome">Nome e Sobrenome</label> <!--etiqueta para entrada dos dados sempre anda junto com input-->
-            <input type="text" id="nomesobrenome " class="input-padrao"> <!--oque o usuario vai digitar no campo pega qualquer tipo de informação-->
+            <input type="text" id="nomesobrenome " class="input-padrao" required><!--oque o usuario vai digitar no campo pega qualquer tipo de informação-->
         
             <label for="email">E-mail</label>
-            <input type="text" id="email"class="input-padrao"><!--alinhar os intens usando esta classe input-padrao-->
+            <input type="email" id="email"class="input-padrao" required placeholder="seuemail@domÍnio.com">
+            <!--alinhar os intens usando esta classe input-padrao--><!--palceholder serve para dar exemplo de como fazer-->
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone"class="input-padrao"> 
+            <input type="tel" id="telefone"class="input-padrao" required placeholder="(xx) xxxxx-xxxx"> 
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="Mensagem"class="input-padrao"></textarea><!--tag de conteudo para usuario escrever algum comentario ou informação necessária-->
+            <textarea cols="70" rows="10" id="Mensagem"class="input-padrao" required>
+            </textarea><!--tag de conteudo para usuario escrever algum comentario ou informação necessária-->
             
         <div>
             <p>Como prefere o nosso contato?</p>
@@ -46,7 +48,7 @@
             id="radio-telefone">Telefone</label>
             
             <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp"
-            id="radio-whatsapp">WhatsApp</label>
+            id="radio-whatsapp" checked>WhatsApp</label>
         </div>
         
         <div><!--div criada campo selecionavel para escolha de um item-->
@@ -59,7 +61,7 @@
         </div>
         
             
-        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
           
           
         <input type="submit" value="Enviar formulário"><!--para enviar os dados, onde manda os dados para servidor,email, ou proxima pagina e etc-->
