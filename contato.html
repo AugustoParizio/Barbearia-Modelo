@@ -40,7 +40,7 @@
             </textarea><!--tag de conteudo para usuario escrever algum comentario ou informação necessária-->
             
         <fieldset><!--configuração de um ou mais campos referente a um assunto expecífico-->
-            <legend>Como prefere o nosso contato?</legend><!--titulo de um paragrafo dentro de fieldset-->
+            <legend>Como prefere o nosso contato?</legend><!--titulo de um grupo de campos dentro de um formulário-->
             <label for="radio-email"><input type="radio" name="contato" value="email" 
             id="radio-email"> E-mail</label>   
             
@@ -65,11 +65,35 @@
         <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
           
           
-        <input type="submit" value="Enviar formulário"><!--para enviar os dados, onde manda os dados para servidor,email, ou proxima pagina e etc-->
+        <input type="submit" value="Enviar formulário" class="enviar"><!--para enviar os dados, onde manda os dados para servidor,email, ou proxima pagina e etc-->
          
         
            
         </form>
+
+        <table><!--tag da tabela,uma sequencia de linhas e colunas-->
+          <thead>
+          <tr><!--linha-->
+            <th>Dia</th><!--tag celula do cabeçalho-->
+            <th>Horário</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>segunda-feira</td><!--tag de celulas-->
+            <td>8h ás 19h</td>
+          </tr>
+          <tr>
+            <td>quarta-feira</td>
+            <td>8h ás 19h</td>
+         </tr>
+          <tr>
+            <td>sexta-feira</td>
+            <td>8h ás 19h</td>
+          </tr>
+          </tbody>
+        </table>
+
       </main>
   
       <footer><!--tag rodapé do site-->
