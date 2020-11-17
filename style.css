@@ -261,4 +261,17 @@ font-weight: bold;
     margin: 1em auto;
 }
 
+/* Criando site responsivo para rodar em todos os tipos de plataformas mobile*/
 
+@media screen and (max-width:480px) {
+    .caixa, .principal, .conteudo-beneficios, .titulo-principal, .mapa p , .mapa-conteudo, .video{
+        width: auto;
+    }
+h1{
+    text-align: center;
+}
+
+
+nav{
+    position: static;
+}
