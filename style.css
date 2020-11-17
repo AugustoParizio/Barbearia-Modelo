@@ -93,8 +93,7 @@ footer{
 }
 
 main{
-    width: 940px; /* width representa a largura da página */
-    margin: auto;
+   
 }
 
 form{
@@ -172,6 +171,14 @@ td, th{
 
 .principal p{
     margin:  0 0 1em;
+    
+}
+
+.principal{
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px; /* width representa a largura da página */
+    margin:  0 auto;
 }
 
 .principal strong{
@@ -183,29 +190,40 @@ td, th{
 }
 
 .utensilios{
-    width: 120px;
-    float: left ; /*float serve para fazer o elemento flutuar e assim o texto ficar ao redor da imagem*/
+    width: 140px;
+   float: left ; /*float serve para fazer o elemento flutuar e assim o texto ficar ao redor da imagem*/
    margin: 0 20px 20px 0;
 }
 
 .mapa{
     padding: 3em 0; /* padding é um espaçamento interno*/
+    background:linear-gradient(#FEFEFE, #888888)
 }
 
-.mapa{
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
     margin: 0 0 2em; /*espaçamento externo*/
     text-align: center;
+    width: 940px; /* width representa a largura da página */
+    margin: auto;
 }
 
 
 
 .beneficios{
     padding: 3em 0;
+    background:#888888;
 }
 
 .conteudo-beneficios{
     width: 640px;
     margin: 0 auto;
+    
+
 }
 
 .lista-beneficios{
@@ -221,10 +239,14 @@ td, th{
 .itens:first-child {
 font-weight: bold;
 }
+.itens:before {
+    content: "★";
+}
 
 .imagem-beneficios{
     width: 50%;
 }
+
 
 .video{
     width: 560px;
