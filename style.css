@@ -275,3 +275,17 @@ h1{
 nav{
     position: static;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .produtos, .produtos, .produtos li {
+        width: auto;
+    }
+
+    .produtos li {
+        padding: 40px;
+        margin: auto;
+    }
+
+    
+    
+   
